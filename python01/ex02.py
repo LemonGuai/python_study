@@ -1,0 +1,10 @@
+mylist = []
+mylist.append('python')
+mylist.append('java')
+mylist.append('c#')
+print(mylist)
+# deleted_item = mylist.pop()
+# print(mylist)
+# print(deleted_item)
+mylist.remove('java')
+print(mylist)
