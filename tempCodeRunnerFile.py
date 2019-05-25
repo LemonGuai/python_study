@@ -1,19 +1,44 @@
-my_name = 'lemon'
-my_age = 18
-my_height = 175
-my_weight = 130
-my_eyes = 'brown'
-my_teeth = 'white'
-my_hair = 'black'
+# mylist = [["a1"], ["b1", "b2"], ["c1", "c2", "c3"], ["d1", "d2", "d3", "d4"]]
+# # mylist_stored = mylist
+# result = []
+# for i in mylist:
+#     item = i.pop()
+#     result.append(item)
 
-print(f"let's talk about {my_name}.")
-print(f"he's {my_age} old.")
-print(f"he's {my_height}cm tall.")
-print(f"he's {my_weight}kg heavy.")
-print("actually that's not too heavy.")
-print(f"he's got {my_eyes} eyes and {my_hair} hair.")
-print(f"his teeth are usually {my_teeth} depending on the coffee.")
+# print(mylist)
+# print(result)
+# class work1:
+#     def __option1(self):
+#         .......
+#     def __option2(self):
+#         .......
+#     def __option3(self):
+#         .......    
 
-total = my_age + my_height + my_weight
 
-print(f"if i add{my_age}, {my height} and {my weight}, i get {total}.")
+#     def handle(self, arg1):
+#         self.__option1()
+#         self.__option2()
+#         self.__option3()
+
+
+# a = work1()
+# arg1 = input("请输入参数值:")
+# a.handle(arg1)
+
+# class Test:
+#     def __init(self):
+#         pass
+
+#     def f(self):
+#         print('Hello, World!')
+
+
+# if __name__ == '__main__':
+#     Test().f()
+
+import datetime
+from datetime import date
+
+a = date.today()
+print(a)

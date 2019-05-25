@@ -13,26 +13,44 @@
 #     def __option2(self):
 #         .......
 #     def __option3(self):
-#         .......    
-
+#         .......
 
 #     def handle(self, arg1):
 #         self.__option1()
 #         self.__option2()
 #         self.__option3()
 
-
 # a = work1()
 # arg1 = input("请输入参数值:")
 # a.handle(arg1)
 
-class Test:
-    def __init(self):
-        pass
+# class Test:
+#     def __init(self):
+#         pass
 
-    def f(self):
-        print('Hello, World!')
+#     def f(self):
+#         print('Hello, World!')
 
+# if __name__ == '__main__':
+#     Test().f()
 
-if __name__ == '__main__':
-    Test().f()
+# import datetime
+# from datetime import date
+
+# a = date.today()
+# # print(a）
+# a, b = eval(input())
+# print(a/b)
+# a = 5
+# if not 1<= a <= 4:
+#     print("true")
+# files = ['这是第{}行'.format(i) for i in range(10)]
+# print(files)
+# print
+# a = [1,2,3]
+# print(a)
+
+filename='./python_study/ex16.txt'
+with open(filename, 'r') as data:
+    text = data.read()
+    print(text)

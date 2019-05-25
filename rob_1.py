@@ -3,12 +3,12 @@ from wxpy import *
 bot = Bot()
 api_key = "ae401f77c0824d9d9270b49b1a5df5b3"
 tuling = Tuling(api_key = api_key)
-flag = True
+# flag = True
 
-while flag:
-    target = input('请输入要聊天的对象id:')
-    my_friend = ensure_one(bot.search(target))
-    break
+# while flag:
+target = input('请输入要聊天的对象id:')
+my_friend = ensure_one(bot.search(target))
+    # break
 
 
 @bot.register(my_friend, except_self=True)
