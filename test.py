@@ -50,7 +50,19 @@
 # a = [1,2,3]
 # print(a)
 
-filename='./python_study/ex16.txt'
-with open(filename, 'r') as data:
-    text = data.read()
-    print(text)
+# filename='./python_study/ex16.txt'
+# with open(filename, 'r') as data:
+#     text = data.read()
+#     print(text)
+
+
+def add(a, b):
+    return a + b
+
+
+def test1():
+    assert 2 == add(1, 1)
+
+
+def test2():
+    assert 1 != add(1, 1)
