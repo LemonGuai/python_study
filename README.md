@@ -1,2 +1,2 @@
 # python_study
-some exercises of studying python
+some exercises of python learning
